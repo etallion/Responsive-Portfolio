@@ -134,3 +134,20 @@ footer{
     color: lightgray;
     font-size: 10px;
 }
+
+Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px.
+
+@media only screen and (max-width: 980px){
+
+}
+
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 640px){}
+.links{
+    display: inline-block;
+    background-color:lightpink;
+
+}
