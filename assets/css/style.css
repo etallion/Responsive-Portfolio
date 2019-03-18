@@ -115,8 +115,11 @@ color:gray;
 position: relative;
 background-color: white;
 /* align-content: center; */
-margin: 0px 0px 20px 0px;
-width: 300px;
+margin: 0px 0px 20px 40px;
+padding: 0px 0px 0 0;
+width: 400px;
+/* max-width: 300px; */
+/* min-width: 100px; */
 overflow-x: hidden;
 }
 
@@ -156,6 +159,12 @@ footer{
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.col-4{
+    width: 400px;
+    display: inline-block;
+    padding: 0px 20px 0px 20px
 }
 
 
@@ -216,4 +225,16 @@ header{
   .container{
       text-align: center;
   }
+  .col-4{
+      display: block;
+      text-align: center;
+  }
+  .image-container{
+    position: relative;
+    background-color: white;
+    /* align-content: center; */
+    margin: 0px 0px 20px 120px;
+    width: 300px;
+    overflow-x: hidden;
+    }
 }
